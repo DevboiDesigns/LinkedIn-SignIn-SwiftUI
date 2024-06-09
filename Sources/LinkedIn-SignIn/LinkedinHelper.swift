@@ -38,7 +38,7 @@ enum LinkedinHelperError: Error {
         self.failure = failure
         self.cancel = cancel
         
-        let storyboard = UIStoryboard(name: "LinkedInLoginVC", bundle: Bundle(for: LinkedInLoginVC.self))
+        let storyboard = UIStoryboard(name: "LinkedInLoginVC", bundle: Bundle.module)
         linkedInLoginVC = storyboard.instantiateViewController(withIdentifier: "LinkedInLoginVC") as? LinkedInLoginVC
         linkedInLoginVC.loadingTitleString = loadingTitleString
         linkedInLoginVC.loadingTitleFont = loadingTitleFont
