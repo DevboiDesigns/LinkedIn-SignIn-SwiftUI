@@ -10,7 +10,7 @@
         <!--General Web Controller-->
         <scene sceneID="D8k-iw-BnN">
             <objects>
-                <viewController storyboardIdentifier="LinkedInLoginVC" id="zGI-Km-cnv" userLabel="General Web Controller" customClass="LinkedInLoginVC" customModule="Stocklift" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LinkedInLoginVC" id="zGI-Km-cnv" userLabel="General Web Controller" customClass="LinkedInLoginVC" customModule="LinkedIn_SignIn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XfY-dZ-1vO"/>
                         <viewControllerLayoutGuide type="bottom" id="KWh-rN-XPa"/>
