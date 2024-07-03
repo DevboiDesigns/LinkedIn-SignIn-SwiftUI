@@ -39,6 +39,10 @@ GET ROOT VIEW CONTROLLER
 
 ---
 
+![Sign In View](img/signin.PNG)
+
+---
+
 # License
 
 LinkedInSignIn is available under the MIT license. See the LICENSE file for more info.
