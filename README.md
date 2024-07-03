@@ -17,14 +17,24 @@ let linkedinCredentilas = [
 ]
 ```
 
-5. Login proces - access token can be used via the LinkedIn SignIn [API](https://developer.linkedin.com)
+5. Login proces - Opens a web view to sign and get access token, token can be used via the LinkedIn SignIn [API](https://developer.linkedin.com)
 
 ```swift
 let linkedInConfig = LinkedInConfig(linkedInKey: linkedinCredentilas["linkedInKey"]!, linkedInSecret: linkedinCredentilas["linkedInSecret"]!, redirectURL: linkedinCredentilas["redirectURL"]!)
 let linkedInHelper = LinkedinHelper(linkedInConfig: linkedInConfig)
-linkedInHelper.login(from: self, completion: { (accessToken) in
+linkedInHelper.login(from: getRootViewController(), completion: { (accessToken) in
  // DO STUFF
 }
+```
+
+GET ROOT VIEW CONTROLLER
+
+```swift
+ static public func getRootViewController() -> UIViewController {
+        guard let screen = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return .init() }
+        guard let root = screen.windows.first?.rootViewController else { return .init() }
+        return root
+    }
 ```
 
 ---
