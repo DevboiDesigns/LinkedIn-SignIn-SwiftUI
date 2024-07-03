@@ -7,7 +7,7 @@
 1. Install package: https://github.com/DevboiDesigns/LinkedIn.SignIn-SPM
 2. Setup app on [LinkedIn](https://developer.linkedin.com)
 3. `import LinkedIn_SignIn`
-4. -
+4. Credentials Helper
 
 ```swift
 let linkedinCredentilas = [
@@ -17,7 +17,7 @@ let linkedinCredentilas = [
 ]
 ```
 
-5. Login proces
+5. Login proces - access token can be used via the LinkedIn SignIn [API](https://developer.linkedin.com)
 
 ```swift
 let linkedInConfig = LinkedInConfig(linkedInKey: linkedinCredentilas["linkedInKey"]!, linkedInSecret: linkedinCredentilas["linkedInSecret"]!, redirectURL: linkedinCredentilas["redirectURL"]!)
