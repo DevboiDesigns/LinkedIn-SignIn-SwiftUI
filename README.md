@@ -1,6 +1,6 @@
 # Swift Package Manager for LinkedIn Sign In
 
-- Originally created by [Serhii Londar](https://github.com/serhii-londar/LinkedInSignIn), I just put it into swift package
+- Originally created by [Serhii Londar](https://github.com/serhii-londar/LinkedInSignIn), I just put it into a swift package
 
 ---
 
