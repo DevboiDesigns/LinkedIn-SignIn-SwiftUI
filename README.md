@@ -39,7 +39,7 @@ GET ROOT VIEW CONTROLLER
 
 ---
 
-![Sign In View](img/signin.PNG)
+<img src="img/signin.PNG"  height="600">
 
 ---
 
